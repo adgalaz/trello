@@ -1,0 +1,88 @@
+/*Eliminando margener por defecto*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*Estilos generales de la pagina*/
+body{
+  background: #1d8ec2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  width: 100%;
+  height: auto;
+}
+
+section{
+  width: 100%;
+  height: auto;
+}
+
+/*Estilos submenu*/
+.submenu{
+  width: 100%;
+  height: auto;
+  margin: 0.3em 0;
+
+}
+
+.subBtn{
+  /*outline: 1px solid orange;*/
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.2em 1em;
+  margin-top: 0.5em;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.subBtn:hover{
+  background: #0067A3;
+  cursor: pointer;
+}
+
+#one{
+  font-size: 1em !important;
+  font-weight: bold;
+}
+
+#two{
+  margin-left: 66em;
+  font-weight: bold;
+}
+
+.contListTask{
+  width: 15em;
+  height: auto;
+  background: #E2E4E6;
+  border-radius: 5px;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.headerListTask{
+  width: inherit;
+  height: auto;
+}
+
+.oneList{
+  text-decoration: none;
+  color: #333333;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+.secondList{
+  text-decoration: none;
+  color: #4d4d4d;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 0.4em;
+  margin-left: 9em;
+}
